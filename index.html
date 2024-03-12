@@ -6,6 +6,7 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="src/icon.png" type="image/icon type">
 </head>
 <body>
     <nav>
@@ -16,9 +17,9 @@
         <div>
             <ul>
                 <li><a href="index.html">H<span class="blue-letter">O</span>ME</a></li>
-                <li><a href="about.html">AB<span class="blue-letter">O</span>UT</a></li>
-                <li><a href="project.html">PR<span class="blue-letter">O</span>JECT</a></li>
-                <li><a href="contact.html">C<span class="blue-letter">O</span>NTACT</a></li>
+                <li><a href="#about">AB<span class="blue-letter">O</span>UT</a></li>
+                <li><a href="#project">PR<span class="blue-letter">O</span>JECT</a></li>
+                <li><a href="#contact">C<span class="blue-letter">O</span>NTACT</a></li>
             </ul>
         </div>
     </nav>
@@ -43,7 +44,7 @@
         </article>
 
         <div class="container personal-detail mt-5">
-            <h2>ABOUT</h2>
+            <h2 id="about">ABOUT</h2>
             <p class="about mt-5">
                 I am a dedicated and ambitious undergraduate student with a passion for programming and
                 technology. My expertise lies in a variety of programming languages, including C++, Java,
@@ -56,42 +57,52 @@
         </div>
 
         <div class="container projects-container mt-5">
-            <h2>PROJECTS</h2>
-
+            <h2 id="project">PROJECTS</h2>
             <main class="projects">
 
               <div class="card" style="width: 18rem;">
                 <h5 class="card-title">Ecommerce Website</h5>
                 <img src="src/ecommerce.JPG" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text">Responsive Ecommerce website using react js with some functionalities</p>
+                  <p class="card-text">Responsive Ecommerce website using react js with some functionalities.</p>
                 </div>
+                <a href="https://samer-nasr.github.io/ecommerce-react/" target="_blank" class="btn btn-primary">Visit Website</a>
+              </div>
+
+              <div class="card" style="width: 18rem;">
+                <h5 class="card-title">Video Poker Game</h5>
+                <img src="src/vp.JPG" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">A video poker game using HTML , CSS and JavaScript (jQuery).</p>
+                </div>
+                <a href="https://samer-nasr.github.io/Video-poker-game/" target="_blank" class="btn btn-primary">Visit Website</a>
               </div>
 
               <div class="card" style="width: 18rem;">
                 <h5 class="card-title">Clinic Software</h5>
-                <img src="src/Appointments.jpg" class="card-img-top" alt="...">
+                <img src="src/Appointments.JPG" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                </div>
-              </div>
-
-              <div class="card" style="width: 18rem;">
-                <img src="src/ecommerce.JPG" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text">A software for dental clinic using javafx (java language) it is connected to database ,contain add,edit and delete data functionalities.</p>
                 </div>
               </div>
 
               <div class="card" style="width: 18rem;">
                 <img src="src/Appointments.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <p class="card-text"></p>
                 </div>
               </div>
-
             </main>
+        </div>
 
+        <div class="container contact-container mt5">
+          <h2 id="contact">CONTACT</h2>
+
+          <main class="">
+            <h3>EMAIL : samernasr1@live.com</h3>
+            <h3>PHONE : +961 71090560</h3>
+          </main>
+          
         </div>
         
     </main>
