@@ -157,4 +157,10 @@ ul li a:hover .blue-letter {
         flex-direction: column;
         align-items: center;
     }
+
+    .contact-info { 
+        font-size: 14px;
+    }
+
+
 }
