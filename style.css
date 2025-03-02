@@ -97,7 +97,7 @@ ul li a:hover .blue-letter {
 
 .projects { 
     /* border: 2px solid white; */
-    min-width: 800px;
+    /* min-width: 800px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -119,6 +119,10 @@ ul li a:hover .blue-letter {
     align-items: center;
 }
 
+.skills {
+    display: flex;
+
+}
 
 
 @media all and (max-width:500px) {
