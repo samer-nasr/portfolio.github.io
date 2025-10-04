@@ -392,13 +392,14 @@ body {
     position: absolute;
     bottom: 20px;
     right: 20px;
-    background: linear-gradient(45deg, #10B981, #059669);
+    background: linear-gradient(135deg, rgba(26, 32, 44, 0.95) 0%, rgba(45, 55, 72, 0.95) 100%);
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 20px;
     font-size: 0.8rem;
     font-weight: 600;
     box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4);
+    box-shadow: 0 4px 15px #FF2D20;
     z-index: 3;
     animation: pulse 2s infinite;
 }
@@ -1673,12 +1674,13 @@ body:not(.loaded) {
 }
 
 .professional-badge {
-    background: linear-gradient(45deg, #10B981, #059669) !important;
+    background: linear-gradient(135deg, rgba(26, 32, 44, 0.95) 0%, rgba(45, 55, 72, 0.95) 100%);
+
     color: white !important;
     font-size: 0.75rem !important;
     padding: 0.5rem 1rem !important;
     border-radius: 20px !important;
-    box-shadow: 0 4px 15px rgba(16, 185, 129, 0.4) !important;
+    box-shadow: 0 4px 15px #FF2D20 !important;
 }
 
 .project-image {
